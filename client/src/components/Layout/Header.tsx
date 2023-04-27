@@ -56,12 +56,12 @@ function Component() {
         <div>
           <Tooltip tips="意见反馈" position="bottom">
             <Iconfont
-              name="yijianfankui"
+              name="GrantLi"
               size={26}
               className={classNames('w-7 mr-3')}
               onClick={() => {
                 window.open(
-                  'https://github.com/gjxs1980/runcode/issues/new',
+                  'https://github.com/GJXS1980/runcode/issues/new',
                   '_blank'
                 );
               }}
@@ -73,7 +73,7 @@ function Component() {
               size={24}
               className={classNames('w-7 mr-3')}
               onClick={() => {
-                window.open('https://github.com/xjq7/runcode', '_blank');
+                window.open('https://github.com/GJXS1980/runcode', '_blank');
               }}
             />
           </Tooltip>
