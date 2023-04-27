@@ -56,7 +56,7 @@ function Component() {
         <div>
           <Tooltip tips="意见反馈" position="bottom">
             <Iconfont
-              name="GrantLi"
+              name="yijianfankui"
               size={26}
               className={classNames('w-7 mr-3')}
               onClick={() => {
